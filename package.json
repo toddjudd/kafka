@@ -13,6 +13,7 @@
     "producer": "nodemon ./src/producer.ts",
     "consume": "nodemon ./src/consumer.ts",
     "consume:atleastonce": "nodemon ./src/atleastonce.ts",
+    "consume:commitorder": "nodemon ./src/commitorder.ts",
     "validate": "tsx ./src/validate.ts"
   },
   "keywords": [],
